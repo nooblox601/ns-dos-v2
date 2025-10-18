@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NS-DOS Oficial</title>
+<style>
+    body {
+        font-family: 'Consolas', monospace;
+        background-color: #1e1e1e;
+        color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        color: #4CAF50;
+    }
+    .container {
+        background-color: #2e2e2e;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 600px;
+        text-align: center;
+        box-shadow: 0 0 20px #000;
+    }
+    .btn-download {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #4CAF50;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+    .btn-download:hover {
+        background-color: #45a049;
+    }
+    pre {
+        text-align: left;
+        background-color: #111;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>NS-DOS Oficial</h1>
+    <p>Bem-vindo ao NS-DOS! Baixe a ISO oficial para testar no seu computador ou em uma VM.</p>
+    
+    <a href="downloads/NS-DOS.iso" class="btn-download">⬇️ Baixar NS-DOS ISO</a>
+    
+    <h2>Instruções</h2>
+    <pre>
+1. Baixe o arquivo ISO.
+2. Abra em uma VM (VirtualBox, VMware) ou grave em pendrive.
+3. Inicie a máquina virtual e divirta-se com o NS-DOS!
+    </pre>
+
+    <h2>Estrutura do NS-DOS</h2>
+    <pre>
+NS-DOS/
+├─ boot/
+│   └─ bootloader.bin
+├─ kernel/
+│   └─ kernel.sys
+├─ apps/
+│   └─ *.bat / *.exe
+└─ config/
+    └─ nsdos.cfg
+    </pre>
+</div>
+
+</body>
+</html>
